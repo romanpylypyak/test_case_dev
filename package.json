@@ -1,0 +1,22 @@
+{
+  "name": "images-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "author": "Roma P",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "*",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
